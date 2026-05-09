@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clay CraftCo</title>
+    <meta name="Pretty stuffs" content="Unique clay creations, custom charms, and handmade jewelry crafted just for you.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased text-dark bg-secondary">
+
+    <nav class="sticky size-80vw top-0 z-50 bg-white/65 backdrop-blur-md shadow-sm border-b border-primary/0">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex flex-wrap justify-between items-center gap-4">
+            <a href="#" class="text-2xl font-extrabold tracking-tight text-primary-dark hover:scale-105 transition-transform">Clay Craft Co.</a>
+            <div class="flex gap-6 sm:gap-8 text-sm sm:text-base">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#shop" class="nav-link">Shop</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class=" relative py-20 px-6 min-h-[75vh] flex items-center justify-center">
+
+        <div class="border-2 rounded-3xl border-pink-400 max-w-4xl mx-auto text-center relative z-10 w-full">
+            <div class="bg-white/50 backdrop-blur-lg p-10 md:p-16 rounded-3xl shadow-glass border border-white/60 text-center w-full max-w-4xl relative overflow-hidden group">
+                <div class="absolute -top-10 -right-10 w-40 h-40 bg-primary/30 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+                <div class="absolute -bottom-10 -left-10 w-40 h-40 bg-peach/40 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+                
+                <span class="inline-block px-5 py-2 bg-white/90 rounded-full text-primary-dark text-xs font-bold tracking-widest mb-6 shadow-sm border border-primary/20 hover:scale-105 transition-transform duration-300">HANDCRAFTED WITH LOVE 🤍</span>
+                <h1 class="text-6xl">💌</h1>
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 text-dark leading-tight tracking-tight">
+                    Clay CraftCo
+                </h1>            
+                
+                <p class="text-xl md:text-2xl text-muted mb-10 max-w-2xl mx-auto leading-relaxed font-light">
+                    Unique clay creations crafted just for you. Add a touch of aesthetic charm to your everyday life.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row justify-center gap-5">
+                    <a href="#shop" class="border-2 border-pink-400 px-8 py-4 font-bold rounded-2xl shadow-soft hover:shadow-lg hover:-translate-y-1 transition-all duration-300 text-lg">
+                        Shop Now
+                    </a>
+                    <a href="#custom" class="border-2 border-black px-8 py-4 bg-white/90 font-bold rounded-2xl shadow-soft hover:shadow-lg hover:-translate-y-1 transition-all duration-300 text-lg">
+                        Custom Order
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="shop" class="py-24 px-6 max-w-6xl mx-auto relative">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-32 bg-gradient-to-b from-primary/10 to-transparent blur-3xl pointer-events-none"></div>
+        
+        <div class="text-center mb-16 relative z-10">
+            <span class="inline-block px-4 py-1.5 bg-peach/40 rounded-full text-primary-dark text-xs font-extrabold tracking-widest mb-4">OUR COLLECTION</span>
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-5 text-dark tracking-tight">Featured Products ✨</h2>
+            <p class="text-muted text-lg max-w-xl mx-auto font-light leading-relaxed">Explore our most loved handcrafted charms and jewelry.</p>
+        </div>
+        
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+           
+            <!-- 1 -->
+            <div>
+                <div class="bg-pink-100 border border-2 rounded-[1rem] p-1 text-center justify-center hover:shadow-lg hover:-translate-y-2 hover:shadow-black duration-500 transition-all">
+                    <img src="/img/kawai_cat.jpeg" alt="kawai cat" class="rounded-[1rem] hover:scale-[1.02] transition-all">
+                    <div class="px-4 pb-2">
+                        <h3 class="font-extrabold ml-4">Cat Keychain</h3>
+                        <h3 class="font-semibold text-sm ml-4 pb-2">₹119 only</h3>
+                        <a target="_blank" href="https://wa.me/919101510832?text=I%20want%20to%20order%20Cat%20Keychain" class="flex justify-center font-extrabold bg-green-300 rounded-full py-1.5 border-2 border-green-500 hover:scale-[1.03] transition-all">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div>
+                <div class="bg-pink-100 border border-2 rounded-[1rem] p-1 text-center justify-center hover:shadow-lg hover:-translate-y-2 hover:shadow-black duration-500 transition-all">
+                    <img src="/img/miffy hairclip 240.jpg" alt="miffy" class="rounded-[1rem] hover:scale-[1.02] transition-all">
+                    <div class="px-4 pb-2">
+                        <h3 class="font-extrabold ml-4">Miffy HairClip</h3>
+                        <h3 class="font-semibold text-sm ml-4 pb-2">₹239 only</h3>
+                        <a target="_blank" href="https://wa.me/919101510832?text=I%20want%20to%20order%20miffy%20hairclip" class="flex justify-center font-extrabold bg-green-300 rounded-full py-1.5 border-2 border-green-500 hover:scale-[1.03] transition-all">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div>
+                <div class="bg-pink-100 border border-2 rounded-[1rem] p-1 text-center justify-center hover:shadow-lg hover:-translate-y-2 hover:shadow-black duration-500 transition-all">
+                    <img src="/img/panda_charm_keychain 250.jpeg" alt="panda" class="rounded-[1rem] hover:scale-[1.02] transition-all">
+                    <div class="px-4 pb-2">
+                        <h3 class="font-extrabold ml-4">Panda Keychain</h3>
+                        <h3 class="font-semibold text-sm ml-4 pb-2">₹249 only</h3>
+                        <a target="_blank" href="https://wa.me/919101510832?text=I%20want%20to%20order%20panda%20charm%20keychain" class="flex justify-center font-extrabold bg-green-300 rounded-full py-1.5 border-2 border-green-500 hover:scale-[1.03] transition-all">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div>
+                <div class="bg-pink-100 border border-2 rounded-[1rem] p-1 text-center justify-center hover:shadow-lg hover:-translate-y-2 hover:shadow-black duration-500 transition-all">
+                    <img src="/img/bunny Keychain 280.jpg" alt="bunny" class="rounded-[1rem] hover:scale-[1.02] transition-all">
+                    <div class="px-4 pb-2">
+                        <h3 class="font-extrabold ml-4">Bunny Keychain</h3>
+                        <h3 class="font-semibold text-sm ml-4 pb-2">₹279 only</h3>
+                        <a target="_blank" href="https://wa.me/919101510832?text=I%20want%20to%20order%20bunny%20Keychain" class="flex justify-center font-extrabold bg-green-300 rounded-full py-1.5 border-2 border-green-500 hover:scale-[1.03] transition-all">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div>
+                <div class="bg-pink-100 border border-2 rounded-[1rem] p-1 text-center justify-center hover:shadow-lg hover:-translate-y-2 hover:shadow-black duration-500 transition-all">
+                    <img src="/img/bear cake Keychain 179.jpg" alt="bear" class="rounded-[1rem] hover:scale-[1.02] transition-all">
+                    <div class="px-4 pb-2">
+                        <h3 class="font-extrabold ml-4">Bear Keychain</h3>
+                        <h3 class="font-semibold text-sm ml-4 pb-2">₹179 only</h3>
+                        <a target="_blank" href="https://wa.me/919101510832?text=I%20want%20to%20order%20bear%20Keychain" class="flex justify-center font-extrabold bg-green-300 rounded-full py-1.5 border-2 border-green-500 hover:scale-[1.03] transition-all">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 6 -->
+            <div>
+                <div class="bg-pink-100 border border-2 rounded-[1rem] p-1 text-center justify-center hover:shadow-lg hover:-translate-y-2 hover:shadow-black duration-500 transition-all">
+                    <img src="/img/cupid charm 160.jpg" alt="cupid" class="rounded-[1rem] hover:scale-[1.02] transition-all">
+                    <div class="px-4 pb-2">
+                        <h3 class="font-extrabold ml-4">Cupid Charm</h3>
+                        <h3 class="font-semibold text-sm ml-4 pb-2">₹159 only</h3>
+                        <a target="_blank" href="https://wa.me/919101510832?text=I%20want%20to%20order%20cupid%20charm" class="flex justify-center font-extrabold bg-green-300 rounded-full py-1.5 border-2 border-green-500 hover:scale-[1.03] transition-all">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 7 -->
+            <div>
+                <div class="bg-pink-100 border border-2 rounded-[1rem] p-1 text-center justify-center hover:shadow-lg hover:-translate-y-2 hover:shadow-black duration-500 transition-all">
+                    <img src="/img/alphabet_keychain 210.jpeg" alt="alphabet" class="rounded-[1rem] hover:scale-[1.02] transition-all">
+                    <div class="px-4 pb-2">
+                        <h3 class="font-extrabold ml-4">Alhabet Keychain</h3>
+                        <h3 class="font-semibold text-sm ml-4 pb-2">₹209 only</h3>
+                        <a target="_blank" href="https://wa.me/919101510832?text=I%20want%20to%20order%20alphabet%20keychain" class="flex justify-center font-extrabold bg-green-300 rounded-full py-1.5 border-2 border-green-500 hover:scale-[1.03] transition-all">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div>
+                <div class="bg-pink-100 border border-2 rounded-[1rem] p-1 text-center justify-center hover:shadow-lg hover:-translate-y-2 hover:shadow-black duration-500 transition-all">
+                    <img src="/img/cinnamon Keychain 240.jpg" alt="cinnamon" class="rounded-[1rem] hover:scale-[1.02] transition-all">
+                    <div class="px-4 pb-2">
+                        <h3 class="font-extrabold ml-4">Cinnamon Keychain</h3>
+                        <h3 class="font-semibold text-sm ml-4 pb-2">₹239 only</h3>
+                        <a target="_blank" href="https://wa.me/919101510832?text=I%20want%20to%20order%20cinnamon%20Keychain" class="flex justify-center font-extrabold bg-green-300 rounded-full py-1.5 border-2 border-green-500 hover:scale-[1.03] transition-all">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 9 -->
+            <div>
+                <div class="bg-pink-100 border border-2 rounded-[1rem] p-1 text-center justify-center hover:shadow-lg hover:-translate-y-2 hover:shadow-black duration-500 transition-all">
+                    <img src="/img/cupid phone charm 160.jpg" alt="phcharm" class="rounded-[1rem] hover:scale-[1.02] transition-all">
+                    <div class="px-4 pb-2">
+                        <h3 class="font-extrabold ml-4">Phone Charm</h3>
+                        <h3 class="font-semibold text-sm ml-4 pb-2">₹159 only</h3>
+                        <a target="_blank" href="https://wa.me/919101510832?text=I%20want%20to%20order%20cupid%20phone%20charm" class="flex justify-center font-extrabold bg-green-300 rounded-full py-1.5 border-2 border-green-500 hover:scale-[1.03] transition-all">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 10 -->
+            <div>
+                <div class="bg-pink-100 border border-2 rounded-[1rem] p-1 text-center justify-center hover:shadow-lg hover:-translate-y-2 hover:shadow-black duration-500 transition-all">
+                    <img src="/img/lover Keychain 220.jpg" alt="lover" class="rounded-[1rem] hover:scale-[1.02] transition-all">
+                    <div class="px-4 pb-2">
+                        <h3 class="font-extrabold ml-4">Lover Keychain</h3>
+                        <h3 class="font-semibold text-sm ml-4 pb-2">₹219 only</h3>
+                        <a target="_blank" href="https://wa.me/919101510832?text=I%20want%20to%20order%20lover%20Keychain" class="flex justify-center font-extrabold bg-green-300 rounded-full py-1.5 border-2 border-green-500 hover:scale-[1.03] transition-all">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 11 -->
+            <div>
+                <div class="bg-pink-100 border border-2 rounded-[1rem] p-1 text-center justify-center hover:shadow-lg hover:-translate-y-2 hover:shadow-black duration-500 transition-all">
+                    <img src="/img/heart beat earrings 130.jpg" alt="heart" class="rounded-[1rem] hover:scale-[1.02] transition-all">
+                    <div class="px-4 pb-2">
+                        <h3 class="font-extrabold ml-4">Dangling Heart Earrings</h3>
+                        <h3 class="font-semibold text-sm ml-4 pb-2">₹129 only</h3>
+                        <a target="_blank" href="https://wa.me/919101510832?text=I%20want%20to%20order%20Dangling%20heart%20earrings" class="flex justify-center font-extrabold bg-green-300 rounded-full py-1.5 border-2 border-green-500 hover:scale-[1.03] transition-all">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 12 -->
+            <div>
+                <div class="bg-pink-100 border border-2 rounded-[1rem] p-1 text-center justify-center hover:shadow-lg hover:-translate-y-2 hover:shadow-black duration-500 transition-all">
+                    <img src="/img/kuromi Keychain 260.jpg" alt="kuromi" class="rounded-[1rem] hover:scale-[1.02] transition-all">
+                    <div class="px-4 pb-2">
+                        <h3 class="font-extrabold ml-4">Kuromi Keychain</h3>
+                        <h3 class="font-semibold text-sm ml-4 pb-2">₹259 only</h3>
+                        <a target="_blank" href="https://wa.me/919101510832?text=I%20want%20to%20order%20kuromi%20Keychain" class="flex justify-center font-extrabold bg-green-300 rounded-full py-1.5 border-2 border-green-500 hover:scale-[1.03] transition-all">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 13 -->
+            <div>
+                <div class="bg-pink-100 border border-2 rounded-[1rem] p-1 text-center justify-center hover:shadow-lg hover:-translate-y-2 hover:shadow-black duration-500 transition-all">
+                    <img src="/img/lovers_duo_keychain 350.jpeg" alt="lovers duo" class="rounded-[1rem] hover:scale-[1.02] transition-all">
+                    <div class="px-4 pb-2">
+                        <h3 class="font-extrabold ml-4">2x Lovers Keychain</h3>
+                        <h3 class="font-semibold text-sm ml-4 pb-2">₹349 only</h3>
+                        <a target="_blank" href="https://wa.me/919101510832?text=I%20want%20to%20order%20lovers%20duo%20keychain" class="flex justify-center font-extrabold bg-green-300 rounded-full py-1.5 border-2 border-green-500 hover:scale-[1.03] transition-all">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 14 -->
+            <div>
+                <div class="bg-pink-100 border border-2 rounded-[1rem] p-1 text-center justify-center hover:shadow-lg hover:-translate-y-2 hover:shadow-black duration-500 transition-all">
+                    <img src="/img/Terra butterfly earrings 100.jpg" alt="terra earrings" class="rounded-[1rem] hover:scale-[1.02] transition-all">
+                    <div class="px-4 pb-2">
+                        <h3 class="font-extrabold ml-4">Tera Butterfly Earrings</h3>
+                        <h3 class="font-semibold text-sm ml-4 pb-2">₹99 only</h3>
+                        <a target="_blank" href="https://wa.me/919101510832?text=I%20want%20to%20order%20Terra%20butterfly%20earrings" class="flex justify-center font-extrabold bg-green-300 rounded-full py-1.5 border-2 border-green-500 hover:scale-[1.03] transition-all">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 15 -->
+            <div>
+                <div class="bg-pink-100 border border-2 rounded-[1rem] p-1 text-center justify-center hover:shadow-lg hover:-translate-y-2 hover:shadow-black duration-500 transition-all">
+                    <img src="/img/new bracelet 140.jpg" alt="new bracelet" class="rounded-[1rem] hover:scale-[1.02] transition-all">
+                    <div class="px-4 pb-2">
+                        <h3 class="font-extrabold ml-4">New Bracelet</h3>
+                        <h3 class="font-semibold text-sm ml-4 pb-2">₹139 only</h3>
+                        <a target="_blank" href="https://wa.me/919101510832?text=I%20want%20to%20order%20new%20bracelet" class="flex justify-center font-extrabold bg-green-300 rounded-full py-1.5 border-2 border-green-500 hover:scale-[1.03] transition-all">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 16 -->
+            <div>
+                <div class="bg-pink-100 border border-2 rounded-[1rem] p-1 text-center justify-center hover:shadow-lg hover:-translate-y-2 hover:shadow-black duration-500 transition-all">
+                    <img src="/img/phone charm 350.jpg" alt="phone charm" class="rounded-[1rem] hover:scale-[1.02] transition-all">
+                    <div class="px-4 pb-2">
+                        <h3 class="font-extrabold ml-4">Phone Charm</h3>
+                        <h3 class="font-semibold text-sm ml-4 pb-2">₹349 only</h3>
+                        <a target="_blank" href="https://wa.me/919101510832?text=I%20want%20to%20order%20phone%20charm" class="flex justify-center font-extrabold bg-green-300 rounded-full py-1.5 border-2 border-green-500 hover:scale-[1.03] transition-all">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 17 -->
+            <div>
+                <div class="bg-pink-100 border border-2 rounded-[1rem] p-1 text-center justify-center hover:shadow-lg hover:-translate-y-2 hover:shadow-black duration-500 transition-all">
+                    <img src="/img/heartheat_earrings.jpeg" alt="earrings" class="rounded-[1rem] hover:scale-[1.02] transition-all">
+                    <div class="px-4 pb-2">
+                        <h3 class="font-extrabold ml-4">Heart Beat Earrings</h3>
+                        <h3 class="font-semibold text-sm ml-4 pb-2">₹119 only</h3>
+                        <a target="_blank" href="https://wa.me/919101510832?text=I%20want%20to%20order%20heart%20beat%20earrings" class="flex justify-center font-extrabold bg-green-300 rounded-full py-1.5 border-2 border-green-500 hover:scale-[1.03] transition-all">Order Now</a>
+                    </div>
+                </div>
+            </div>   
+            <!-- 18 -->
+            <div>
+                <div class="bg-pink-100 border border-2 rounded-[1rem] p-1 text-center justify-center hover:shadow-lg hover:-translate-y-2 hover:shadow-black duration-500 transition-all">
+                    <img src="/img/strawberry_phone_charm 129.jpeg" alt="phone charm" class="rounded-[1rem] hover:scale-[1.02] transition-all">
+                    <div class="px-4 pb-2">
+                        <h3 class="font-extrabold ml-4">Strawberry Phone Charm</h3>
+                        <h3 class="font-semibold text-sm ml-4 pb-2">₹129 only</h3>
+                        <a target="_blank" href="https://wa.me/919101510832?text=I%20want%20to%20order%20Strawberry%20phone%20charm" class="flex justify-center font-extrabold bg-green-300 rounded-full py-1.5 border-2 border-green-500 hover:scale-[1.03] transition-all">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </section>
+
+<section id="about" class="py-24 bg-white relative overflow-hidden">
+        <div class="absolute -right-20 top-20 w-64 h-64 bg-primary/10 rounded-full blur-3xl"></div>
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 lg:gap-20 items-center relative z-10">
+            <div class="order-2 md:order-1 relative group">
+                <div class="absolute -inset-4 bg-primary/30 rounded-3xl transform rotate-3 scale-105 transition-transform group-hover:rotate-6 group-hover:scale-110 duration-500"></div>
+                <img src="img/profile.jpeg" alt="Crafting Process" class="relative rounded-2xl shadow-lg object-cover h-[450px] w-full">
+            </div>
+            <div class="order-1 md:order-2">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-dark leading-tight">The Magic Behind the Clay 🌸</h2>
+                <p class="text-lg text-muted mb-6 leading-relaxed">
+                    Hi I'm Riya, every piece at Clay CraftCo is handcrafted with a whole lot of love and attention to detail. I believe that the best gifts are the ones that carry a personal touch and tell a unique story.
+                </p>
+                <p class="text-lg text-muted mb-8 leading-relaxed">
+                    From blending the perfect pastel colors to intricate details, the entire process is dedicated to bringing you unique, artistic accessories designed to make you smile and add a cozy vibe to your aesthetic.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-6 mt-8">
+                    <div class="flex items-center gap-4 bg-secondary p-4 rounded-xl shadow-sm border border-primary/10 flex-1">
+                        <div class="w-12 h-12 rounded-full bg-peach flex items-center justify-center text-2xl shadow-inner flex-shrink-0">✨</div>
+                        <div>
+                            <h4 class="font-bold text-dark text-lg">100% Handmade</h4>
+                            <p class="text-sm text-muted">Crafted slowly & joyfully</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4 bg-secondary p-4 rounded-xl shadow-sm border border-primary/10 flex-1">
+                        <div class="w-12 h-12 rounded-full bg-primary/30 flex items-center justify-center text-2xl shadow-inner flex-shrink-0">🎁</div>
+                        <div>
+                            <h4 class="font-bold text-dark text-lg">Perfect Gifts</h4>
+                            <p class="text-sm text-muted">Made with emotional value</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="custom" class="py-28 bg-gradient-to-r from-peach/30 to-primary/20 relative overflow-hidden">
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-white opacity-40 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="max-w-3xl mx-auto px-6 text-center relative z-10">
+            <span class="inline-block px-5 py-2 bg-white/80 backdrop-blur-sm rounded-full text-primary-dark text-sm font-bold tracking-widest mb-6 shadow-sm border border-primary/20 animate-bounce">PERSONALIZED FOR YOU</span>
+            <h2 class="text-5xl md:text-6xl font-extrabold mb-8 text-dark tracking-tight">Design Your Own Charm</h2>
+            <p class="text-xl text-muted mb-12 max-w-xl mx-auto leading-relaxed font-light">
+                Want a custom piece? Let's bring it to life! Whether it's a miniature pet portrait, a favorite character, or a special color palette, I'd love to handcraft something "Made just for you".
+            </p>
+            <a href="#contact" class="inline-flex items-center justify-center px-10 py-5 bg-white text-primary-dark font-bold rounded-2xl shadow-soft hover:shadow-xl hover:-translate-y-2 hover:bg-primary-dark transition-all duration-300 gap-3 text-xl group">
+                Request Custom
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-20">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-5 text-dark tracking-tight">Our Reviews 💌</h2>
+            <p class="text-muted text-xl font-light">What our lovely aesthetic lovers are saying.</p>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-10 rounded-[2rem] shadow-soft border border-primary/10 hover:shadow-lg hover:-translate-y-2 transition-all duration-300 flex flex-col">
+                <div class="flex text-primary-dark mb-6 text-2xl text-pink-400">★★★★★</div>
+                <p class="text-dark italic mb-8 text-lg leading-relaxed font-light flex-grow">"So cute and unique! The packaging was absolutely adorable, and you can tell so much love went into making my strawberry charm."</p>
+                <div class="flex items-center gap-4 mt-auto">
+                    <div class="font-bold text-dark text-lg">- Ariyan Bora</div>
+                </div>
+            </div>
+            
+            <div class="bg-white p-10 rounded-[2rem] shadow-soft border border-primary/10 hover:shadow-lg hover:-translate-y-2 transition-all duration-300 flex flex-col">
+                <div class="flex text-primary-dark mb-6 text-2xl text-pink-400">★★★★★</div>
+                <p class="text-dark italic mt-8 mb-8 text-lg leading-relaxed font-light flex-grow">"Mast gift! I ordered a custom initial keychain for my friend, and the quality was amazing."</p>
+                <div class="flex items-center gap-4 mt-auto">
+                    <div class="font-bold text-dark text-lg">- Chitra B</div>
+                </div>
+            </div>
+            
+            <div class="bg-white p-10 rounded-[2rem] shadow-soft border border-primary/10 hover:shadow-lg hover:-translate-y-2 transition-all duration-300 flex flex-col">
+                <div class="flex text-primary-dark mb-6 text-2xl text-pink-400">★★★★★</div>
+                <p class="text-dark italic mb-8 text-lg leading-relaxed font-light flex-grow">"These earrings are my new favorite accessory. They are so lightweight and the pastel colors are perfectly mixed. Will be buying more!"</p>
+                <div class="flex items-center gap-4 mt-auto">
+                    <div class="font-bold text-dark text-lg">- Pahi</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-pink-100 border-t border-primary/10 items-center justify-center">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 lg:gap-24 items-center justify-center">
+            <div>
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-8 leading-tight tracking-tight text-dark">Request Custom🎀</h2>
+                <p class="text-muted text-xl mb-12 leading-relaxed font-light">
+                    Have a question about an order, want a custom piece, or just want to say hi? Just drop me a DM on Whatsapp :)
+                </p>
+                
+                <a href="https://www.instagram.com/clay.craftco" target="_blank" class="h-16 p-8 inline-flex items-center gap-4 mt-4 border-2 border-pink-300 text-pink-400 bg-amber-50 font-bold rounded-2xl shadow-soft hover:shadow-lg hover:-translate-y-1 hover:scale-105 transition-all duration-300 text-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    @clay.craftco
+                </a>
+                <a href="https://wa.me/919101510832?text=hey%20Clay%20Craftco" target="_blank" class="h-16 p-8 flex border-2 border-pink-300 rounded-2xl items-center justify-center gap-4 mt-4 w-max font-extrabold bg-amber-50 hover:shadow-lg hover:-translate-y-1 hover:scale-105 transition-all duration-300 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="w-8 h-8" aria-labelledby="title"
+                    aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <title>WhatsApp</title>
+                    <desc>A color styled icon from Orion Icon Library.</desc>
+                    <path data-name="layer1"
+                    d="M30.19.031a31.753 31.753 0 0 0-26.735 46.12L.085 62.509A1.235 1.235 0 0 0 1.58 63.96l16.029-3.8A31.744 31.744 0 1 0 30.19.031zM49.316 49.31A24.871 24.871 0 0 1 20.68 54l-2.232-1.112-9.828 2.326 2.069-10.042-1.1-2.154a24.874 24.874 0 0 1 4.578-28.857A24.854 24.854 0 0 1 49.316 49.31zm0 0"
+                    fill="#7ad06d"></path>
+                    <path data-name="layer1" d="M47.147 38.619L41 36.854a2.292 2.292 0 0 0-2.267.6l-1.5 1.531a2.239 2.239 0 0 1-2.435.514C31.883 38.32 25.765 32.88 24.2 30.16a2.239 2.239 0 0 1 .177-2.483l1.312-1.7a2.292 2.292 0 0 0 .283-2.328L23.388 17.8a2.293 2.293 0 0 0-3.58-.82c-1.716 1.451-3.752 3.657-4 6.1-.436 4.308 1.411 9.738 8.4 16.258 8.071 7.534 14.534 8.528 18.743 7.509 2.387-.578 4.294-2.9 5.5-4.793a2.293 2.293 0 0 0-1.3-3.436z"
+                    fill="#7ad06d"></path>
+                    </svg> Send Message
+
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-16 text-center border-t-8 border-primary">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col items-center gap-6">
+            <h3 class="text-4xl font-extrabold text-white tracking-tight">Clay Craft Co.</h3>
+            <p class="text-white/90 font-medium text-lg">Made with love 💕</p>
+            <p class="text-sm text-pink-400 tracking-widest uppercase p-2">&copy; 2026 Clay Craft Co. All rights reserved.</p>
+        </div>
+        <a href="https://chitras-portfolio.vercel.app/" class="inline-flex rounded-full border-2 border-pink-400 p-3 m-2 bg-pink-100 text-black hover:shadow-2xl hover:bg-pink-400 hover:drop-shadow-black hover:scale-110 transition-all"> developed by Chitra</a>
+    </footer>
+
+</body>
+</html>
